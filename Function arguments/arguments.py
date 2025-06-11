@@ -14,9 +14,8 @@ update(a)
 
 def change(lst):
   print(id(lst))  # Print the id of lst before modification
- 
- lst[1] = 25
- print(id(lst))  # Print the id of lst after modification
+  lst[0] = 27
+  print(id(lst)) # Print the id of lst after modification
   print(lst)
 
 lst =[20,45,70]
